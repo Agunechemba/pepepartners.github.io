@@ -1,0 +1,171 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Home Section */
+#home {
+    background-image: url('https://pepepartners.files.wordpress.com/2023/06/pepepartners-banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Services Section */
+.service {
+    margin-bottom: 20px;
+}
+
+/* Why Choose Us Section */
+.reason {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Testimonials Section */
+.testimonial {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+   
+
+/* Social Section*/
+.social-links { 
+   display: flex; 
+   justify-content: center; }
+
+.social-links a { 
+   display: inline-block; 
+   margin: 0 10px; }
+
+.social-links a img { 
+   width: 40px; 
+   height: 40px; 
+   border-radius: 40%; }
+
+
+/*Partners section*/
+.partner {
+  display: inline-block;
+  margin: 10px;
+}
+
+.partner img {
+  width: 200px; /* Change the width as desired */
+  height: auto; /* This will maintain the image's aspect ratio */
+}
+
+
+/*Testimonial Section*/
+.testimonial {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.testimonial img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.testimonial p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.testimonial cite {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+
+
+
+/*Logo Stlye*/
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.container img {
+  width: 200px;
+  height: auto;
+}
+
+.container h1 {
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.container .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.container .btn:hover {
+  background-color: #0056b3;
+}
